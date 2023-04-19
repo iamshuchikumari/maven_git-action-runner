@@ -15,4 +15,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Running Maven Application 
-      run: java -cp target/helloworld-1.0-SNAPSHOT.jar com.example.App
+      run: java -cp target/helloworld-1.0-SNAPSHOT.jar com.shuchi.App
