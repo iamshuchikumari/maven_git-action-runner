@@ -56,7 +56,9 @@ public class App
    
     public static void main(String[] args) {
         System.out.println("Hello World! \n This Code is executed by Shuchi on Git Acrion Runner using Maven Build tool");
+        System.out.println("\n Calling  sampleGetMethod()");
         sampleGetMethod();
+        System.out.println("\n Calling  fetchDeploymentDetails()");
         fetchDeploymentDetails();
     }
 }
