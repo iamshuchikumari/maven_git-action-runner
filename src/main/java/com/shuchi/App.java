@@ -49,8 +49,14 @@ public class App
         }
     }
 
+   private static void sampleGetMethod() {
+        Response response = RestAssured.get("https://jsonplaceholder.typicode.com/posts/1");
+        System.out.println(response.getBody().asString());
+    }
+   
     public static void main(String[] args) {
         System.out.println("Hello World! \n This Code is executed by Shuchi on Git Acrion Runner using Maven Build tool");
+        sampleGetMethod()
         fetchDeploymentDetails();
     }
 }
