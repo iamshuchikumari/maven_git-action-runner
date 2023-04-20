@@ -1,4 +1,9 @@
 package com.shuchi;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * Hello world!
