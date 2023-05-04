@@ -1,4 +1,4 @@
-name: Maven Build demo
+name: Maven Build demo1
 
 on: [push]
 
